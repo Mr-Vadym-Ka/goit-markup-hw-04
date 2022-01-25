@@ -102,7 +102,7 @@ body {
     background: var(--hero-btnbkg-color);
     margin: 30px auto auto;
     border-radius: 4px;
-    border-color: none;
+    border: none;
 }
 .header {
     border-top: 1px #ffffff;
@@ -223,6 +223,7 @@ body {
 .team {
     margin-top: 0;
     background-color: var(--team-background);
+    border-color: tomato;
 }
 .team-title {
     margin-bottom: 50px;
@@ -247,6 +248,9 @@ body {
 }
 .team-item-undertitle {
     padding: 30px 32px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-item-member {
     font-weight: 500;
