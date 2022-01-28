@@ -163,16 +163,10 @@ body {
     margin-left: 30px;
 }
 
-.header-contacts-icons {
-    display: flex;
-}
-.icon-header {
+.header-icon {
     margin-right: 10px;
 }
-.icon-header:hover,
-.icon-header:focus {
-    fill: var(--accent-color);
-}
+
 .contacts-mail,
 .contacts-tel {
     padding-top: 32px;
