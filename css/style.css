@@ -166,8 +166,12 @@ body {
 .header-contacts-icons {
     display: flex;
 }
-.icon {
+.icon-header {
     margin-right: 10px;
+}
+.icon-header:hover,
+.icon-header:focus {
+    fill: var(--accent-color);
 }
 .contacts-mail,
 .contacts-tel {
@@ -270,7 +274,38 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
+    margin-bottom: 16px;
 }
+.social-icon-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.social-icon {
+    display: flex;
+    fill: #afb1b8;
+}
+.member-social-link:not(first-child) {
+    margin-left: 10px;
+}
+.member-social-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.member-social-link:hover,
+.member-social-link:focus {
+    background-color: var(--accent-color);
+}
+.member-social-link:hover .social-icon,
+.member-social-link:focus .social-icon {
+    fill: #ffffff;
+}
+
 /*--  Footer --*/
 
 .footer {
