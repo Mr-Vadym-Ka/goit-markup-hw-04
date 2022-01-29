@@ -47,17 +47,15 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    /*outline: 2px solid red;*/
     margin: 0 auto;
 }
 .section {
-    /* outline: 2px solid red; */
     padding-bottom: 94px;
     padding-top: 94px;
 }
 .logo {
     font-family: "Raleway", sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -66,7 +64,7 @@ body {
 }
 .logo-first {
     font-family: "Raleway", sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -92,7 +90,7 @@ body {
     width: 200px;
     height: 50px;
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     align-items: center;
@@ -109,8 +107,6 @@ body {
     border-bottom: 1px solid #ececec;
 }
 .header-line {
-    /* padding-top: 24px;
-    padding-bottom: 25px; */
     display: flex;
     align-items: center;
 }
@@ -142,7 +138,6 @@ body {
 }
 .header-list .header-item + .header-item {
     margin-left: 50px;
-    /* background: red; */
 }
 /* .header-list .header-item:last-child {
     margin-right: 0;
@@ -333,6 +328,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     /* background-color: red; */
 }
 .clients-item:hover,
