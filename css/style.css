@@ -335,6 +335,10 @@ body {
 .clients-item:focus {
     border-color: var(--accent-color);
 }
+.clients-item-icon:hover .clients-item,
+.clients-item-icon:focus {
+    fill: var(--accent-color);
+}
 .clients-item + .clients-item {
     margin-left: 30px;
 }
