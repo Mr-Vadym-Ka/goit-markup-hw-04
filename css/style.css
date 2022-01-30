@@ -513,7 +513,8 @@ body {
     margin-left: 30px;
     margin-top: 30px;
 }
-.list-item:hover {
+.list-item:hover,
+.list-item:focus {
     box-shadow: 1px 5px 5px #eeeeee;
 }
 .border-bottom-text {
