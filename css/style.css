@@ -477,6 +477,7 @@ body {
 .button-list .button.btn-current {
     background-color: var(--accent-color);
     color: #ffffff;
+    box-shadow: 0 5px 0 #f5f4fa;
 }
 .sort-btn {
     cursor: pointer;
@@ -511,6 +512,9 @@ body {
     width: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+}
+.list-item:hover {
+    box-shadow: 1px 5px 5px #eeeeee;
 }
 .border-bottom-text {
     border-bottom: 1px solid var(--border-item-color);
