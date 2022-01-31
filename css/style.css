@@ -8,7 +8,7 @@
     --img-title-color: #212121;
     --team-background: #f5f4fa;
     --team-item-background: #ffffff;
-    --border-item-color: #eeeeee;
+    --border-item-color: #201212;
 }
 p,
 h1,
@@ -82,7 +82,8 @@ body {
         url(../img/hero-image.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    /* max-width: 1600px; */
 }
 .hero-name {
     font-weight: 900;
@@ -303,9 +304,6 @@ body {
     display: flex;
     fill: #afb1b8;
 }
-.member-social-link:not(first-child) {
-    margin-left: 10px;
-}
 .member-social-link {
     width: 44px;
     height: 44px;
@@ -366,9 +364,15 @@ body {
 /*--  Footer --*/
 
 .footer {
-    /* padding-top: 60px; */
+    padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2f303a;
+}
+.footer-link {
+    display: flex;
+}
+.footer-list {
+    display: flex;
 }
 .footer-logo {
     font-family: Raleway;
@@ -381,12 +385,11 @@ body {
     display: block;
     margin-bottom: 20px;
 }
-.footer-link-list {
-    display: flex;
+
+.contacts-list {
+    text-decoration: none;
 }
-.address-item {
-    margin-top: 60px;
-}
+
 .footer-address {
     font-style: normal;
     font-weight: normal;
@@ -418,7 +421,8 @@ body {
 }
 .social-list {
     margin-left: 70px;
-    margin-top: 72px;
+    display: block;
+    /* margin-top: 72px; */
 }
 .footer-social-name {
     font-weight: 700bold;
@@ -429,6 +433,7 @@ body {
     color: #ffffff;
     margin-bottom: 20px;
 }
+
 .footer-social-link {
     width: 44px;
     height: 44px;
