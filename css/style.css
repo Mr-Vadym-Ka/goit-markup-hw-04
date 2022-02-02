@@ -200,16 +200,17 @@ body {
     flex-wrap: wrap;
 }
 .feature-item-icon {
-    display: block;
+    display: flex;
     width: 270px;
     height: 120px;
     background-color: #f5f4fa;
     margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
 }
 .feature-icon {
     width: 70px;
     height: 70px;
-    margin: 25px 100px;
 }
 .features-item + .features-item {
     margin-left: 30px;
